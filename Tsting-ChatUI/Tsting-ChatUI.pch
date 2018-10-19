@@ -1,0 +1,25 @@
+//
+//  Tsting-ChatUI.pch
+//  Tsting-ChatUI
+//
+//  Created by bonlion on 2018/9/19.
+//  Copyright © 2018 dasui. All rights reserved.
+//
+
+#ifndef Tsting_ChatUI_pch
+#define Tsting_ChatUI_pch
+
+#import <Masonry.h>
+#import "UIView+FrameTool.h"
+#import <UITableView+FDTemplateLayoutCell.h>
+
+
+#define SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
+#define IS_IPHONE_X (SCREEN_HEIGHT >= 812.f)
+#define Safe_Bottom_Area 34.f
+#define NaviHeight (IS_IPHONE_X ? 88.f : 64.f)
+
+
+#define IsRightToLeft 0
+
+#endif /* Tsting_ChatUI_pch */

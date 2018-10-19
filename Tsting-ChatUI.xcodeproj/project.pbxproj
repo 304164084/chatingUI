@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C18246BA2152563C0036D590 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C18246B92152563C0036D590 /* AppDelegate.m */; };
+		C18246BD2152563C0036D590 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C18246BC2152563C0036D590 /* ViewController.m */; };
+		C18246C02152563C0036D590 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18246BE2152563C0036D590 /* Main.storyboard */; };
+		C18246C22152563D0036D590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18246C12152563D0036D590 /* Assets.xcassets */; };
+		C18246C52152563D0036D590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18246C32152563D0036D590 /* LaunchScreen.storyboard */; };
+		C18246C82152563D0036D590 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C18246C72152563D0036D590 /* main.m */; };
+		C18246D22152563D0036D590 /* Tsting_ChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C18246D12152563D0036D590 /* Tsting_ChatUITests.m */; };
+		C18246DD2152563D0036D590 /* Tsting_ChatUIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C18246DC2152563D0036D590 /* Tsting_ChatUIUITests.m */; };
+		C18246ED21533E870036D590 /* MarlServiceChatInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = C18246EC21533E870036D590 /* MarlServiceChatInputView.m */; };
+		C18246F0215384470036D590 /* UIView+FrameTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C18246EE215384470036D590 /* UIView+FrameTool.m */; };
+		C1824705215489BA0036D590 /* MarlChatMoreOperationsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C18246FF215489BA0036D590 /* MarlChatMoreOperationsView.m */; };
+		C1824706215489BA0036D590 /* MarlChatTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1824700215489BA0036D590 /* MarlChatTextView.m */; };
+		C1824707215489BA0036D590 /* MarlChatKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1824704215489BA0036D590 /* MarlChatKeyBoardView.m */; };
+		C182470A21549E370036D590 /* MarlServiceChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C182470921549E360036D590 /* MarlServiceChatCell.m */; };
+		C1BA2264216F49D000346D8E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1BA2266216F49D000346D8E /* Localizable.strings */; };
+		CE4117965E348488DF0BA006 /* libPods-Tsting-ChatUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C33C3661FB6B247CEEDEFF7 /* libPods-Tsting-ChatUI.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C18246CE2152563D0036D590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C18246AD2152563C0036D590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C18246B42152563C0036D590;
+			remoteInfo = "Tsting-ChatUI";
+		};
+		C18246D92152563D0036D590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C18246AD2152563C0036D590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C18246B42152563C0036D590;
+			remoteInfo = "Tsting-ChatUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1367A29C2AC54F7B2F6D35FE /* Pods-Tsting-ChatUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tsting-ChatUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tsting-ChatUI/Pods-Tsting-ChatUI.debug.xcconfig"; sourceTree = "<group>"; };
+		1C33C3661FB6B247CEEDEFF7 /* libPods-Tsting-ChatUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tsting-ChatUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		427B678319D2A0A535D0FBE5 /* libPods-Tsting-ChatUIUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tsting-ChatUIUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE655B5DCEE07439F760E39 /* Pods-Tsting-ChatUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tsting-ChatUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tsting-ChatUI/Pods-Tsting-ChatUI.release.xcconfig"; sourceTree = "<group>"; };
+		C18246B52152563C0036D590 /* Tsting-ChatUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tsting-ChatUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18246B82152563C0036D590 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C18246B92152563C0036D590 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C18246BB2152563C0036D590 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C18246BC2152563C0036D590 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C18246BF2152563C0036D590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C18246C12152563D0036D590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C18246C42152563D0036D590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C18246C62152563D0036D590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C18246C72152563D0036D590 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C18246CD2152563D0036D590 /* Tsting-ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tsting-ChatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18246D12152563D0036D590 /* Tsting_ChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tsting_ChatUITests.m; sourceTree = "<group>"; };
+		C18246D32152563D0036D590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C18246D82152563D0036D590 /* Tsting-ChatUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tsting-ChatUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18246DC2152563D0036D590 /* Tsting_ChatUIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tsting_ChatUIUITests.m; sourceTree = "<group>"; };
+		C18246DE2152563D0036D590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C18246EA2152582B0036D590 /* Tsting-ChatUI.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tsting-ChatUI.pch"; sourceTree = "<group>"; };
+		C18246EB21533E870036D590 /* MarlServiceChatInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarlServiceChatInputView.h; sourceTree = "<group>"; };
+		C18246EC21533E870036D590 /* MarlServiceChatInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarlServiceChatInputView.m; sourceTree = "<group>"; };
+		C18246EE215384470036D590 /* UIView+FrameTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameTool.m"; sourceTree = "<group>"; };
+		C18246EF215384470036D590 /* UIView+FrameTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameTool.h"; sourceTree = "<group>"; };
+		C18246FF215489BA0036D590 /* MarlChatMoreOperationsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarlChatMoreOperationsView.m; sourceTree = "<group>"; };
+		C1824700215489BA0036D590 /* MarlChatTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarlChatTextView.m; sourceTree = "<group>"; };
+		C1824701215489BA0036D590 /* MarlChatKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarlChatKeyBoardView.h; sourceTree = "<group>"; };
+		C1824702215489BA0036D590 /* MarlChatMoreOperationsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarlChatMoreOperationsView.h; sourceTree = "<group>"; };
+		C1824703215489BA0036D590 /* MarlChatTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarlChatTextView.h; sourceTree = "<group>"; };
+		C1824704215489BA0036D590 /* MarlChatKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarlChatKeyBoardView.m; sourceTree = "<group>"; };
+		C182470821549E360036D590 /* MarlServiceChatCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarlServiceChatCell.h; sourceTree = "<group>"; };
+		C182470921549E360036D590 /* MarlServiceChatCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarlServiceChatCell.m; sourceTree = "<group>"; };
+		C1BA225E216F491500346D8E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		C1BA225F216F491500346D8E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		C1BA2260216F492100346D8E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		C1BA2261216F492100346D8E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		C1BA2265216F49D000346D8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C1BA2267216F49D200346D8E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C1BA2268216F49D400346D8E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C6ED94B4DD84295FDCBADA00 /* libPods-Tsting-ChatUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tsting-ChatUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C18246B22152563C0036D590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4117965E348488DF0BA006 /* libPods-Tsting-ChatUI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18246CA2152563D0036D590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18246D52152563D0036D590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5810A769A2A4E88122FC004E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C33C3661FB6B247CEEDEFF7 /* libPods-Tsting-ChatUI.a */,
+				C6ED94B4DD84295FDCBADA00 /* libPods-Tsting-ChatUITests.a */,
+				427B678319D2A0A535D0FBE5 /* libPods-Tsting-ChatUIUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C18246AC2152563C0036D590 = {
+			isa = PBXGroup;
+			children = (
+				C18246B72152563C0036D590 /* Tsting-ChatUI */,
+				C18246D02152563D0036D590 /* Tsting-ChatUITests */,
+				C18246DB2152563D0036D590 /* Tsting-ChatUIUITests */,
+				C18246B62152563C0036D590 /* Products */,
+				DDF117878F456B9F715B092E /* Pods */,
+				5810A769A2A4E88122FC004E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C18246B62152563C0036D590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C18246B52152563C0036D590 /* Tsting-ChatUI.app */,
+				C18246CD2152563D0036D590 /* Tsting-ChatUITests.xctest */,
+				C18246D82152563D0036D590 /* Tsting-ChatUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C18246B72152563C0036D590 /* Tsting-ChatUI */ = {
+			isa = PBXGroup;
+			children = (
+				C18246FE215489BA0036D590 /* KeyBoard */,
+				C18246B82152563C0036D590 /* AppDelegate.h */,
+				C18246B92152563C0036D590 /* AppDelegate.m */,
+				C18246BB2152563C0036D590 /* ViewController.h */,
+				C18246BC2152563C0036D590 /* ViewController.m */,
+				C182470821549E360036D590 /* MarlServiceChatCell.h */,
+				C182470921549E360036D590 /* MarlServiceChatCell.m */,
+				C18246EB21533E870036D590 /* MarlServiceChatInputView.h */,
+				C18246EC21533E870036D590 /* MarlServiceChatInputView.m */,
+				C18246EF215384470036D590 /* UIView+FrameTool.h */,
+				C18246EE215384470036D590 /* UIView+FrameTool.m */,
+				C18246BE2152563C0036D590 /* Main.storyboard */,
+				C18246C12152563D0036D590 /* Assets.xcassets */,
+				C18246C32152563D0036D590 /* LaunchScreen.storyboard */,
+				C18246C62152563D0036D590 /* Info.plist */,
+				C18246C72152563D0036D590 /* main.m */,
+				C18246EA2152582B0036D590 /* Tsting-ChatUI.pch */,
+				C1BA2266216F49D000346D8E /* Localizable.strings */,
+			);
+			path = "Tsting-ChatUI";
+			sourceTree = "<group>";
+		};
+		C18246D02152563D0036D590 /* Tsting-ChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C18246D12152563D0036D590 /* Tsting_ChatUITests.m */,
+				C18246D32152563D0036D590 /* Info.plist */,
+			);
+			path = "Tsting-ChatUITests";
+			sourceTree = "<group>";
+		};
+		C18246DB2152563D0036D590 /* Tsting-ChatUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C18246DC2152563D0036D590 /* Tsting_ChatUIUITests.m */,
+				C18246DE2152563D0036D590 /* Info.plist */,
+			);
+			path = "Tsting-ChatUIUITests";
+			sourceTree = "<group>";
+		};
+		C18246FE215489BA0036D590 /* KeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C1824703215489BA0036D590 /* MarlChatTextView.h */,
+				C1824700215489BA0036D590 /* MarlChatTextView.m */,
+				C1824701215489BA0036D590 /* MarlChatKeyBoardView.h */,
+				C1824704215489BA0036D590 /* MarlChatKeyBoardView.m */,
+				C1824702215489BA0036D590 /* MarlChatMoreOperationsView.h */,
+				C18246FF215489BA0036D590 /* MarlChatMoreOperationsView.m */,
+			);
+			path = KeyBoard;
+			sourceTree = "<group>";
+		};
+		DDF117878F456B9F715B092E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1367A29C2AC54F7B2F6D35FE /* Pods-Tsting-ChatUI.debug.xcconfig */,
+				9BE655B5DCEE07439F760E39 /* Pods-Tsting-ChatUI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C18246B42152563C0036D590 /* Tsting-ChatUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18246E12152563D0036D590 /* Build configuration list for PBXNativeTarget "Tsting-ChatUI" */;
+			buildPhases = (
+				B0D11D5F345A9F8F95F650A6 /* [CP] Check Pods Manifest.lock */,
+				C18246B12152563C0036D590 /* Sources */,
+				C18246B22152563C0036D590 /* Frameworks */,
+				C18246B32152563C0036D590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tsting-ChatUI";
+			productName = "Tsting-ChatUI";
+			productReference = C18246B52152563C0036D590 /* Tsting-ChatUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C18246CC2152563D0036D590 /* Tsting-ChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18246E42152563D0036D590 /* Build configuration list for PBXNativeTarget "Tsting-ChatUITests" */;
+			buildPhases = (
+				C18246C92152563D0036D590 /* Sources */,
+				C18246CA2152563D0036D590 /* Frameworks */,
+				C18246CB2152563D0036D590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C18246CF2152563D0036D590 /* PBXTargetDependency */,
+			);
+			name = "Tsting-ChatUITests";
+			productName = "Tsting-ChatUITests";
+			productReference = C18246CD2152563D0036D590 /* Tsting-ChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C18246D72152563D0036D590 /* Tsting-ChatUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18246E72152563D0036D590 /* Build configuration list for PBXNativeTarget "Tsting-ChatUIUITests" */;
+			buildPhases = (
+				C18246D42152563D0036D590 /* Sources */,
+				C18246D52152563D0036D590 /* Frameworks */,
+				C18246D62152563D0036D590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C18246DA2152563D0036D590 /* PBXTargetDependency */,
+			);
+			name = "Tsting-ChatUIUITests";
+			productName = "Tsting-ChatUIUITests";
+			productReference = C18246D82152563D0036D590 /* Tsting-ChatUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C18246AD2152563C0036D590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = dasui;
+				TargetAttributes = {
+					C18246B42152563C0036D590 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					C18246CC2152563D0036D590 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C18246B42152563C0036D590;
+					};
+					C18246D72152563D0036D590 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C18246B42152563C0036D590;
+					};
+				};
+			};
+			buildConfigurationList = C18246B02152563C0036D590 /* Build configuration list for PBXProject "Tsting-ChatUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+				"zh-Hant",
+			);
+			mainGroup = C18246AC2152563C0036D590;
+			productRefGroup = C18246B62152563C0036D590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C18246B42152563C0036D590 /* Tsting-ChatUI */,
+				C18246CC2152563D0036D590 /* Tsting-ChatUITests */,
+				C18246D72152563D0036D590 /* Tsting-ChatUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C18246B32152563C0036D590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18246C52152563D0036D590 /* LaunchScreen.storyboard in Resources */,
+				C1BA2264216F49D000346D8E /* Localizable.strings in Resources */,
+				C18246C22152563D0036D590 /* Assets.xcassets in Resources */,
+				C18246C02152563C0036D590 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18246CB2152563D0036D590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18246D62152563D0036D590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0D11D5F345A9F8F95F650A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tsting-ChatUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C18246B12152563C0036D590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18246F0215384470036D590 /* UIView+FrameTool.m in Sources */,
+				C182470A21549E370036D590 /* MarlServiceChatCell.m in Sources */,
+				C1824707215489BA0036D590 /* MarlChatKeyBoardView.m in Sources */,
+				C1824706215489BA0036D590 /* MarlChatTextView.m in Sources */,
+				C18246BD2152563C0036D590 /* ViewController.m in Sources */,
+				C18246ED21533E870036D590 /* MarlServiceChatInputView.m in Sources */,
+				C18246C82152563D0036D590 /* main.m in Sources */,
+				C18246BA2152563C0036D590 /* AppDelegate.m in Sources */,
+				C1824705215489BA0036D590 /* MarlChatMoreOperationsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18246C92152563D0036D590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18246D22152563D0036D590 /* Tsting_ChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18246D42152563D0036D590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18246DD2152563D0036D590 /* Tsting_ChatUIUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C18246CF2152563D0036D590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C18246B42152563C0036D590 /* Tsting-ChatUI */;
+			targetProxy = C18246CE2152563D0036D590 /* PBXContainerItemProxy */;
+		};
+		C18246DA2152563D0036D590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C18246B42152563C0036D590 /* Tsting-ChatUI */;
+			targetProxy = C18246D92152563D0036D590 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C18246BE2152563C0036D590 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C18246BF2152563C0036D590 /* Base */,
+				C1BA225E216F491500346D8E /* ar */,
+				C1BA2260216F492100346D8E /* zh-Hant */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C18246C32152563D0036D590 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C18246C42152563D0036D590 /* Base */,
+				C1BA225F216F491500346D8E /* ar */,
+				C1BA2261216F492100346D8E /* zh-Hant */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C1BA2266216F49D000346D8E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1BA2265216F49D000346D8E /* en */,
+				C1BA2267216F49D200346D8E /* ar */,
+				C1BA2268216F49D400346D8E /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C18246DF2152563D0036D590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C18246E02152563D0036D590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C18246E22152563D0036D590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1367A29C2AC54F7B2F6D35FE /* Pods-Tsting-ChatUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVAG7CVG48;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Tsting-ChatUI/Tsting-ChatUI.pch";
+				INFOPLIST_FILE = "Tsting-ChatUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonlion.Tsting-ChatUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C18246E32152563D0036D590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BE655B5DCEE07439F760E39 /* Pods-Tsting-ChatUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVAG7CVG48;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Tsting-ChatUI/Tsting-ChatUI.pch";
+				INFOPLIST_FILE = "Tsting-ChatUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonlion.Tsting-ChatUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C18246E52152563D0036D590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVAG7CVG48;
+				INFOPLIST_FILE = "Tsting-ChatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonlion.Tsting-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tsting-ChatUI.app/Tsting-ChatUI";
+			};
+			name = Debug;
+		};
+		C18246E62152563D0036D590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVAG7CVG48;
+				INFOPLIST_FILE = "Tsting-ChatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonlion.Tsting-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tsting-ChatUI.app/Tsting-ChatUI";
+			};
+			name = Release;
+		};
+		C18246E82152563D0036D590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVAG7CVG48;
+				INFOPLIST_FILE = "Tsting-ChatUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonlion.Tsting-ChatUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tsting-ChatUI";
+			};
+			name = Debug;
+		};
+		C18246E92152563D0036D590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVAG7CVG48;
+				INFOPLIST_FILE = "Tsting-ChatUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonlion.Tsting-ChatUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tsting-ChatUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C18246B02152563C0036D590 /* Build configuration list for PBXProject "Tsting-ChatUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18246DF2152563D0036D590 /* Debug */,
+				C18246E02152563D0036D590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18246E12152563D0036D590 /* Build configuration list for PBXNativeTarget "Tsting-ChatUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18246E22152563D0036D590 /* Debug */,
+				C18246E32152563D0036D590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18246E42152563D0036D590 /* Build configuration list for PBXNativeTarget "Tsting-ChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18246E52152563D0036D590 /* Debug */,
+				C18246E62152563D0036D590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18246E72152563D0036D590 /* Build configuration list for PBXNativeTarget "Tsting-ChatUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18246E82152563D0036D590 /* Debug */,
+				C18246E92152563D0036D590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C18246AD2152563C0036D590 /* Project object */;
+}

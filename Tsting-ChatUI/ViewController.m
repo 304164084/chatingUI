@@ -119,15 +119,12 @@ CGFloat const minHeightOfCell = 60.f;
     if (lastMaxY <= self.tableView.height) {
         if (lastMaxY+NaviHeight >= minY) {
             
-            self.tableView.y = NaviHeight;
-            self.tableView.contentInset = UIEdgeInsetsMake(-(NaviHeight + lastMaxY - minY + lastCellBetweenBottom), 0, 0, 0);
-            return;
-            
             // TODO: - 这里有问题！！！ 当last cell的maxY 刚好大于keyboard的Y时，tableview的底部会与keyboard分离(产生一个间距，猜测由于tableview的Y值计算错误引起。)
             // FIXME: - 9.25日测试真机未重现该问题。！！！又出现了
 
             /// 判断 如果最后一个cell的最大Y值与tableview的高度之差小于一个最小cell的高度时，直接让tableview的底部与输入框顶部对齐。
             // 补充：因为下一个的cell最大Y值已经超过高度，继续使用else内的公式，会导致tableview整体上移。故加此条件判断
+            
             if (self.tableView.height - lastMaxY - lastCellBetweenBottom <= minHeightOfCell) {
                 self.tableView.y = minY - self.tableView.height;
                 return;
@@ -146,7 +143,7 @@ CGFloat const minHeightOfCell = 60.f;
     }
 
     [self scrollToBottom];
-}
+} 
 - (void)keyboardSendMessage:(NSString *)textStr
 {
     NSLog(@"send msg ->%@", textStr);

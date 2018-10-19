@@ -129,6 +129,11 @@ CGFloat const minHeightOfCell = 60.f;
                 self.tableView.y = minY - self.tableView.height;
                 return;
             }
+            if (fabs(lastMaxY + NaviHeight - minY) < minHeightOfCell) {
+                self.tableView.contentInset = UIEdgeInsetsZero;
+                self.tableView.y = minY - lastMaxY;
+                return;
+            }
             self.tableView.y = minY - lastMaxY - NaviHeight - lastCellBetweenBottom;
             //r 如果键盘弹出后，输入框的最小Y值 <= 最后一个cell的最大Y值，则保持最后一个cell始终处于输入框上方(保持可见).此时需要移动tableview Y值。
             

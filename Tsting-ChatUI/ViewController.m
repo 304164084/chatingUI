@@ -124,17 +124,10 @@ CGFloat const minHeightOfCell = 60.f;
 
             /// 判断 如果最后一个cell的最大Y值与tableview的高度之差小于一个最小cell的高度时，直接让tableview的底部与输入框顶部对齐。
             // 补充：因为下一个的cell最大Y值已经超过高度，继续使用else内的公式，会导致tableview整体上移。故加此条件判断
+            self.tableView.y = NaviHeight;
+            self.tableView.contentInset = UIEdgeInsetsMake(-(NaviHeight + lastMaxY - minY + lastCellBetweenBottom), 0, 0, 0);
+            return;
             
-            if (self.tableView.height - lastMaxY - lastCellBetweenBottom <= minHeightOfCell) {
-                self.tableView.y = minY - self.tableView.height;
-                return;
-            }
-            if (fabs(lastMaxY + NaviHeight - minY) < minHeightOfCell) {
-                self.tableView.contentInset = UIEdgeInsetsZero;
-                self.tableView.y = minY - lastMaxY;
-                return;
-            }
-            self.tableView.y = minY - lastMaxY - NaviHeight - lastCellBetweenBottom;
             //r 如果键盘弹出后，输入框的最小Y值 <= 最后一个cell的最大Y值，则保持最后一个cell始终处于输入框上方(保持可见).此时需要移动tableview Y值。
             
         } else {

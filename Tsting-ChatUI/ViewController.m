@@ -138,7 +138,7 @@ static CGFloat const keyBoardHeight = 52.f;
 
     [self scrollToBottom];
 } 
-- (void)keyboardSendMessage:(NSString *)textStr
+- (void)keyboardSendTextMessage:(NSString *)textStr
 {
     NSLog(@"send msg ->%@", textStr);
     [self.dataSource addObject:textStr];

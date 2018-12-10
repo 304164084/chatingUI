@@ -7,17 +7,18 @@
 //
 
 #import "ViewController.h"
-#import "MarlServiceChatInputView.h"
-#import "MarlChatKeyBoardView.h"
+
+#import "MarlServiceChatKeyBoardView.h"
 #import "MarlServiceChatCell.h"
 
-CGFloat const lastCellBetweenBottom = 20.f;
-CGFloat const minHeightOfCell = 60.f;
+static CGFloat const lastCellBetweenBottom = 20.f;
+static CGFloat const minHeightOfCell = 60.f;
+static CGFloat const keyBoardHeight = 52.f;
 
-@interface ViewController ()<MarlChatKeyBoardDelegate, UITableViewDelegate, UITableViewDataSource, UIGestureRecognizerDelegate>
+@interface ViewController ()<MarlServiceChatKeyBoardDelegate, UITableViewDelegate, UITableViewDataSource, UIGestureRecognizerDelegate>
 
 /** keyboard */
-@property (nonatomic, strong) MarlChatKeyBoardView *keyBoardView;
+@property (nonatomic, strong) MarlServiceChatKeyBoardView *keyBoardView;
 /** table view */
 @property (nonatomic, strong) UITableView *tableView;
 /** data source */
@@ -66,17 +67,12 @@ CGFloat const minHeightOfCell = 60.f;
 - (void)addKeyBoardView
 {
 
-    _keyBoardView = [[MarlChatKeyBoardView alloc] initWithFrame:CGRectZero];
-    _keyBoardView.backgroundColor = [UIColor redColor];
+    _keyBoardView = [[MarlServiceChatKeyBoardView alloc] initWithFrame:CGRectZero];_keyBoardView = [[MarlServiceChatKeyBoardView alloc] initWithFrame:CGRectMake(0, self.view.height - keyBoardHeight - (IS_IPHONE_X ? Safe_Bottom_Area : 0.f), self.view.width, keyBoardHeight)];
+    
+    _keyBoardView.backgroundColor = [UIColor whiteColor];
     //设置代理方法
     _keyBoardView.delegate = self;
     [self.view addSubview:_keyBoardView];
-    
-    [_keyBoardView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.leading.trailing.mas_equalTo(self.view);
-//        make.height.mas_equalTo(@(height));
-        make.bottom.mas_equalTo(self.view).offset(IS_IPHONE_X ? -Safe_Bottom_Area : 0.f);
-    }];
 }
 // MARK: - add tableView
 - (void)addTableView
@@ -150,6 +146,7 @@ CGFloat const minHeightOfCell = 60.f;
     [self scrollToBottom];
 }
 - (void)scrollToBottom {
+    [self.tableView layoutIfNeeded];
     if (self.dataSource.count >= 1) {
         [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:MAX(0, self.dataSource.count - 1) inSection:0] atScrollPosition:UITableViewScrollPositionBottom animated:NO];
     }
@@ -159,9 +156,9 @@ CGFloat const minHeightOfCell = 60.f;
 {
     if (!_dataSource) {
         _dataSource = [NSMutableArray array];
-//        for (int i = 0; i < 3; i++) {
-//            [_dataSource addObject:@"我们要好好学习了。你的手机📱？我们的孩子都会在我们面前进行一场轰轰烈烈地爱过我爱我😊？我们的孩子都会很美好呢？我们的孩子都会"];
-//        }
+        for (int i = 0; i < 20; i++) {
+            [_dataSource addObject:@"我们要好好学习了。你的手机📱？我们的孩子都会在我们面前进行一场轰轰烈烈地爱过我爱我😊？我们的孩子都会很美好呢？我们的孩子都会"];
+        }
     }
     return _dataSource;
 }
@@ -171,10 +168,7 @@ CGFloat const minHeightOfCell = 60.f;
 {
     return self.dataSource.count;
 }
-//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-//{
-//    return 1;
-//}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     MarlServiceChatCell *cell = [[MarlServiceChatCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:MarlServiceChatCellID];
@@ -183,6 +177,7 @@ CGFloat const minHeightOfCell = 60.f;
     [cell setRoleType:(indexPath.row % 2)];
     return cell;
 }
+
 // MARK: - table view delegate
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -195,6 +190,7 @@ CGFloat const minHeightOfCell = 60.f;
 {
     return [UIView new];
 }
+
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
 {
     return lastCellBetweenBottom;

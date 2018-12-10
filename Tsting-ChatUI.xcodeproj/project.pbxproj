@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C12CC91421BE6749005DF34D /* MarlServiceChatKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C12CC90E21BE6748005DF34D /* MarlServiceChatKeyBoardView.m */; };
+		C12CC91521BE6749005DF34D /* MarlServiceChatMoreOperationsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C12CC91021BE6748005DF34D /* MarlServiceChatMoreOperationsView.m */; };
+		C12CC91621BE6749005DF34D /* MarlServiceChatTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C12CC91221BE6749005DF34D /* MarlServiceChatTextView.m */; };
+		C12CC91921BE6A21005DF34D /* UIView+UITools.m in Sources */ = {isa = PBXBuildFile; fileRef = C12CC91821BE6A21005DF34D /* UIView+UITools.m */; };
 		C18246BA2152563C0036D590 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C18246B92152563C0036D590 /* AppDelegate.m */; };
 		C18246BD2152563C0036D590 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C18246BC2152563C0036D590 /* ViewController.m */; };
 		C18246C02152563C0036D590 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18246BE2152563C0036D590 /* Main.storyboard */; };
@@ -17,9 +21,6 @@
 		C18246DD2152563D0036D590 /* Tsting_ChatUIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C18246DC2152563D0036D590 /* Tsting_ChatUIUITests.m */; };
 		C18246ED21533E870036D590 /* MarlServiceChatInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = C18246EC21533E870036D590 /* MarlServiceChatInputView.m */; };
 		C18246F0215384470036D590 /* UIView+FrameTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C18246EE215384470036D590 /* UIView+FrameTool.m */; };
-		C1824705215489BA0036D590 /* MarlChatMoreOperationsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C18246FF215489BA0036D590 /* MarlChatMoreOperationsView.m */; };
-		C1824706215489BA0036D590 /* MarlChatTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1824700215489BA0036D590 /* MarlChatTextView.m */; };
-		C1824707215489BA0036D590 /* MarlChatKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1824704215489BA0036D590 /* MarlChatKeyBoardView.m */; };
 		C182470A21549E370036D590 /* MarlServiceChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C182470921549E360036D590 /* MarlServiceChatCell.m */; };
 		C1BA2264216F49D000346D8E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1BA2266216F49D000346D8E /* Localizable.strings */; };
 		CE4117965E348488DF0BA006 /* libPods-Tsting-ChatUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C33C3661FB6B247CEEDEFF7 /* libPods-Tsting-ChatUI.a */; };
@@ -47,6 +48,14 @@
 		1C33C3661FB6B247CEEDEFF7 /* libPods-Tsting-ChatUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tsting-ChatUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		427B678319D2A0A535D0FBE5 /* libPods-Tsting-ChatUIUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tsting-ChatUIUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE655B5DCEE07439F760E39 /* Pods-Tsting-ChatUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tsting-ChatUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tsting-ChatUI/Pods-Tsting-ChatUI.release.xcconfig"; sourceTree = "<group>"; };
+		C12CC90E21BE6748005DF34D /* MarlServiceChatKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarlServiceChatKeyBoardView.m; sourceTree = "<group>"; };
+		C12CC90F21BE6748005DF34D /* MarlServiceChatKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarlServiceChatKeyBoardView.h; sourceTree = "<group>"; };
+		C12CC91021BE6748005DF34D /* MarlServiceChatMoreOperationsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarlServiceChatMoreOperationsView.m; sourceTree = "<group>"; };
+		C12CC91121BE6748005DF34D /* MarlServiceChatTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarlServiceChatTextView.h; sourceTree = "<group>"; };
+		C12CC91221BE6749005DF34D /* MarlServiceChatTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarlServiceChatTextView.m; sourceTree = "<group>"; };
+		C12CC91321BE6749005DF34D /* MarlServiceChatMoreOperationsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarlServiceChatMoreOperationsView.h; sourceTree = "<group>"; };
+		C12CC91721BE6A21005DF34D /* UIView+UITools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+UITools.h"; sourceTree = "<group>"; };
+		C12CC91821BE6A21005DF34D /* UIView+UITools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+UITools.m"; sourceTree = "<group>"; };
 		C18246B52152563C0036D590 /* Tsting-ChatUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tsting-ChatUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C18246B82152563C0036D590 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C18246B92152563C0036D590 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,12 +77,6 @@
 		C18246EC21533E870036D590 /* MarlServiceChatInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarlServiceChatInputView.m; sourceTree = "<group>"; };
 		C18246EE215384470036D590 /* UIView+FrameTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameTool.m"; sourceTree = "<group>"; };
 		C18246EF215384470036D590 /* UIView+FrameTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameTool.h"; sourceTree = "<group>"; };
-		C18246FF215489BA0036D590 /* MarlChatMoreOperationsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarlChatMoreOperationsView.m; sourceTree = "<group>"; };
-		C1824700215489BA0036D590 /* MarlChatTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarlChatTextView.m; sourceTree = "<group>"; };
-		C1824701215489BA0036D590 /* MarlChatKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarlChatKeyBoardView.h; sourceTree = "<group>"; };
-		C1824702215489BA0036D590 /* MarlChatMoreOperationsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarlChatMoreOperationsView.h; sourceTree = "<group>"; };
-		C1824703215489BA0036D590 /* MarlChatTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarlChatTextView.h; sourceTree = "<group>"; };
-		C1824704215489BA0036D590 /* MarlChatKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarlChatKeyBoardView.m; sourceTree = "<group>"; };
 		C182470821549E360036D590 /* MarlServiceChatCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarlServiceChatCell.h; sourceTree = "<group>"; };
 		C182470921549E360036D590 /* MarlServiceChatCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarlServiceChatCell.m; sourceTree = "<group>"; };
 		C1BA225E216F491500346D8E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
@@ -158,6 +161,8 @@
 				C18246EC21533E870036D590 /* MarlServiceChatInputView.m */,
 				C18246EF215384470036D590 /* UIView+FrameTool.h */,
 				C18246EE215384470036D590 /* UIView+FrameTool.m */,
+				C12CC91721BE6A21005DF34D /* UIView+UITools.h */,
+				C12CC91821BE6A21005DF34D /* UIView+UITools.m */,
 				C18246BE2152563C0036D590 /* Main.storyboard */,
 				C18246C12152563D0036D590 /* Assets.xcassets */,
 				C18246C32152563D0036D590 /* LaunchScreen.storyboard */,
@@ -190,12 +195,12 @@
 		C18246FE215489BA0036D590 /* KeyBoard */ = {
 			isa = PBXGroup;
 			children = (
-				C1824703215489BA0036D590 /* MarlChatTextView.h */,
-				C1824700215489BA0036D590 /* MarlChatTextView.m */,
-				C1824701215489BA0036D590 /* MarlChatKeyBoardView.h */,
-				C1824704215489BA0036D590 /* MarlChatKeyBoardView.m */,
-				C1824702215489BA0036D590 /* MarlChatMoreOperationsView.h */,
-				C18246FF215489BA0036D590 /* MarlChatMoreOperationsView.m */,
+				C12CC90F21BE6748005DF34D /* MarlServiceChatKeyBoardView.h */,
+				C12CC90E21BE6748005DF34D /* MarlServiceChatKeyBoardView.m */,
+				C12CC91321BE6749005DF34D /* MarlServiceChatMoreOperationsView.h */,
+				C12CC91021BE6748005DF34D /* MarlServiceChatMoreOperationsView.m */,
+				C12CC91121BE6748005DF34D /* MarlServiceChatTextView.h */,
+				C12CC91221BE6749005DF34D /* MarlServiceChatTextView.m */,
 			);
 			path = KeyBoard;
 			sourceTree = "<group>";
@@ -369,14 +374,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C18246F0215384470036D590 /* UIView+FrameTool.m in Sources */,
+				C12CC91521BE6749005DF34D /* MarlServiceChatMoreOperationsView.m in Sources */,
+				C12CC91421BE6749005DF34D /* MarlServiceChatKeyBoardView.m in Sources */,
 				C182470A21549E370036D590 /* MarlServiceChatCell.m in Sources */,
-				C1824707215489BA0036D590 /* MarlChatKeyBoardView.m in Sources */,
-				C1824706215489BA0036D590 /* MarlChatTextView.m in Sources */,
+				C12CC91921BE6A21005DF34D /* UIView+UITools.m in Sources */,
 				C18246BD2152563C0036D590 /* ViewController.m in Sources */,
 				C18246ED21533E870036D590 /* MarlServiceChatInputView.m in Sources */,
 				C18246C82152563D0036D590 /* main.m in Sources */,
+				C12CC91621BE6749005DF34D /* MarlServiceChatTextView.m in Sources */,
 				C18246BA2152563C0036D590 /* AppDelegate.m in Sources */,
-				C1824705215489BA0036D590 /* MarlChatMoreOperationsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
